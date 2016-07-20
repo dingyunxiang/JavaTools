@@ -12,7 +12,6 @@ import java.util.Set;
  */
 public class ScanClass {
 
-    public static int i = 0;
 
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
@@ -58,11 +57,12 @@ public class ScanClass {
         this.doScan(basePackage, "", set);
     }
 
+
+
     public void doScan(Set s, String... basePackages) {
         for (String basePackage : basePackages) {
             this.doScan(basePackage, s);
         }
     }
-
 
 }
