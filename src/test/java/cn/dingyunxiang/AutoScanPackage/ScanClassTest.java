@@ -26,7 +26,6 @@ public class ScanClassTest {
     }
 
 
-
     @Test
     public void testSet(){
 
@@ -41,6 +40,7 @@ public class ScanClassTest {
         for(Object obj : set){
             Field[] fields = obj.getClass().getDeclaredFields();
 
+
             for(Field f:fields){
                 System.out.println(obj.getClass().getName()+">>>"+f.getName());
             }
@@ -52,11 +52,18 @@ public class ScanClassTest {
     }
 
 
-
     @Test
     public void printTest(){
-        System.out.println((int)'a');
+        String str = "ぬhello";
 
+//        System.out.println(str.equalsIgnoreCase("HELLO"));
 
+        int i = str.codePointCount(0,str.length());
+        StringBuilder builder = new StringBuilder();
+        System.out.println(i);
+    }
+
+    public static void main() {
+        System.out.println("world");
     }
 }
