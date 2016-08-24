@@ -63,7 +63,9 @@ public class ScanClassTest {
         System.out.println(i);
     }
 
-    public static void main() {
-        System.out.println("world");
+    @Test
+    public void test1(){
+        int i = -1;
+        System.out.println(i);
     }
 }

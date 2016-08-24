@@ -30,6 +30,14 @@
                     </connectors>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
@@ -141,6 +149,41 @@
             <groupId>com.rop</groupId>
             <artifactId>rop</artifactId>
             <version>1.0.7-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+
+
+
+        <!--Curator依赖添加-->
+
+        <!--<dependency>-->
+            <!--<groupId>com.netflix.curator</groupId>-->
+            <!--<artifactId>curator-client</artifactId>-->
+            <!--<version>2.9.0</version>-->
+        <!--</dependency>-->
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-framework</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-recipes</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-x-discovery</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-examples</artifactId>
+            <version>2.9.0</version>
         </dependency>
 
     </dependencies>

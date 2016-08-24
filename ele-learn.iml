@@ -16,7 +16,7 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -33,8 +33,8 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax:javaee-api:7.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.sun.mail:javax.mail:1.5.0" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.12" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.11" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" name="Maven: junit:junit:4.12" level="project" />
+    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.19" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-simple:1.7.19" level="project" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.1.3" level="project" />
@@ -79,5 +79,17 @@
     <orderEntry type="library" name="Maven: javax.xml.stream:stax-api:1.0-2" level="project" />
     <orderEntry type="library" name="Maven: javax.activation:activation:1.1.1" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.2.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.curator:curator-framework:2.9.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.curator:curator-client:2.9.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.zookeeper:zookeeper:3.4.6" level="project" />
+    <orderEntry type="library" name="Maven: jline:jline:0.9.94" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty:3.7.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:16.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.curator:curator-recipes:2.9.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.curator:curator-x-discovery:2.9.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.curator:curator-examples:2.9.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.curator:curator-test:2.9.0" level="project" />
+    <orderEntry type="library" name="Maven: org.javassist:javassist:3.18.1-GA" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-math:2.2" level="project" />
   </component>
 </module>

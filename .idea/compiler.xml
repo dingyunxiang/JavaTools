@@ -27,7 +27,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ele-learn" target="1.5" />
+      <module name="ele-learn" target="1.8" />
       <module name="Jersey-test" target="1.5" />
     </bytecodeTargetLevel>
   </component>
